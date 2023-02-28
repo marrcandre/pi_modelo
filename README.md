@@ -5,7 +5,9 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
 Links do projeto:
-- Documentação do projeto (esse documento): [github.com/marcoandre/pi-modelo](
+- [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+- [Backend](github.com/marcoandre/pi-backend)
+- [Frontend](github.com/marcoandre/pi-frontend)
 
 # Como usar esse modelo para o Projeto Integrador
 
@@ -78,3 +80,4 @@ ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada 
 diferente que for explicar (como faria em uma redação); 
 - **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
 ajudar a resolvê-los.
+
