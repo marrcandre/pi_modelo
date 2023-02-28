@@ -52,6 +52,8 @@ empresa, como dos status dos serviços.
 
 **Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
 
+![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+
 Descrevem o que acontece atualmente na empresa em um contexto global,
 abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
 
