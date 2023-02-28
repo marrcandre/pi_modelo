@@ -2,7 +2,10 @@
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
-Professores: [Marco André Mendes](github.com/marcoandre) e [Alann](github.com/alann).
+Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
+
+Links do projeto:
+- Documentação do projeto (esse documento): [github.com/marcoandre/pi-modelo](
 
 # Como usar esse modelo para o Projeto Integrador
 
@@ -47,4 +50,31 @@ empresa, como dos status dos serviços.
 
 **Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
 
+Descrevem o que acontece atualmente na empresa em um contexto global,
+abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
 
+Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
+atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
+
+- Pesquise sobre empresas do ramo escolhido
+para entender como funcionam;
+- Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
+- Simule uma situação real. Lembre-se que são
+propostas com empresas fictícias, sendo assim,
+você terá que tomar certas decisões sobre como
+a empresa funciona em relação às coisas que
+não estão definidas no documento base (por
+exemplo, no caso da padaria, dizemos que seu
+Genival contratou mais funcionários, mas saber
+quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
+empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
+
+Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+
+- **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz,  tempo de existência, o dono, funcionários,
+etc);
+- **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma
+ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa
+diferente que for explicar (como faria em uma redação); 
+- **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
+ajudar a resolvê-los.
