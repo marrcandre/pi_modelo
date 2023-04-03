@@ -75,8 +75,7 @@ atualidade, ou seja, antes de seu novo software**, usando como base a situação
     propostas com empresas fictícias, sendo assim,
     você terá que tomar certas decisões sobre como
     a empresa funciona em relação às coisas que
-    não estão definidas no documento base (por
-    exemplo, no caso da padaria, dizemos que seu
+    não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu
     Genival contratou mais funcionários, mas saber
     quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
     empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
