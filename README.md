@@ -2,8 +2,14 @@
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
+Cadastre seu projeto nesse [link].(https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing)
+
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
+Equipe:
+- Aluno1 - [GitHub](link)
+- Aluno2 - [GitHub](link)
+  
 Links do projeto:
 
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
