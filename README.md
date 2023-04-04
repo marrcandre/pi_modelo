@@ -1,22 +1,25 @@
 # Projeto Integrador - Modelo
+*(Coloque aqui o nome do seu projeto.)*
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
+*(Coloque aqui uma breve descrição do seu projeto.)*
 
 Cadastre seu projeto nesse [link].(https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing)
 
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
 Equipe:
-- Aluno1 - [GitHub](link)
-- Aluno2 - [GitHub](link)
+- [Aluno1](github.com/aluno1)
+- [Aluno2](github.com/aluno2)
   
 Links do projeto:
-
+(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   [Backend](github.com/marcoandre/pi-backend)
--   [Frontend](github.com/marcoandre/pi-frontend)
+-   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Frontend[Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 # Como usar esse modelo para o Projeto Integrador
+*(Essa parte pode ser apagada depois.)*
 
 1. Faça um fork desse repositório para a sua conta do GitHub.
 2. Clone o repositório para o seu computador.
@@ -25,7 +28,7 @@ Links do projeto:
 5. Edite o arquivo README.md com as informações do seu projeto.
 
 # 1. Desenvolvimento
-
+*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
 -   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
 -   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 
@@ -58,7 +61,7 @@ Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartpho
 
 # 2. Situação Problema
 
-**Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
+*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
@@ -92,8 +95,7 @@ Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa s
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
-desejado e permita sua continuidade.
+Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
 
 **Alguns pontos importantes a se destacar são:**
 
@@ -110,7 +112,7 @@ precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer alg
 
 # 4. Regras de negócio
 
-**Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
+(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
 As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as
 regras de negócio, sua importância, como são aplicadas e
