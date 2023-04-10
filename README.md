@@ -111,7 +111,6 @@ Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um
 precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
 
 # 4. Regras de negócio
-
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
 As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as
@@ -179,4 +178,70 @@ orçamento registradas, a atendente deve imprimir o orçamento e
 repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
 - **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
 - **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
+
+# 5. Requisitos funcionais
+(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
+
+## 5.1 O que são requisitos funcionais?**
+
+Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
+
+Os requisitos funcionais são compostos de duas partes:
+**função** e **comportamento**. 
+
+- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
+- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
+
+## 5.2 Tipos de requisitos funcionais
+
+Os requisitos funcionais podem ser classificados em:
+
+- Regulamentos de Negócios
+- Requisitos de Certificação
+- Requisitos de relatório
+- Funções Administrativas
+- Níveis de autorização
+- Rastreamento de auditoria
+- Interfaces Externas
+- Gestão de dados
+- Requisitos Legais e Regulamentares
+
+## 5.3 Diretrizes para a elaboração de requisitos funcionais
+
+Cada requisito funcional precisa ser:
+
+- **Específico** sobre o que o sistema deve fazer.
+- **Mensurável** para que você possa dizer se o sistema está fazendo isso
+- **Alcançável** dentro do prazo que você definiu
+- **Relevante** para seus objetivos de negócios
+- **Limitado** no tempo para que você possa
+acompanhar o progresso
+
+## 5.4 Estrutura do requisito funcional
+
+Um requisito funcional deve ser estruturado da seguinte forma:
+
+- **Nome do requisito funcional:** descrição do
+requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+### 5.4.1 Nome do requisito funcional
+
+**R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
+seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
+Por exemplo: 
+- R.F. 01 - Registro de Funcionários
+- R.F. 15 - Gerenciamento de consultas
+- R.F. 04 - Débito em conta corrente
+ 
+Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
+
+### 5.4.2 Descrição do requisito funcional
+
+**Descrição do requisito:** local para descrever a função deste requisito. 
+
+Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa.
+Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
+usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
 
