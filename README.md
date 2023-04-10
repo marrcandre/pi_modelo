@@ -245,3 +245,86 @@ Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo d
 Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
 usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
 
+
+### 5.4.3 Dados necessários
+
+**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer. 
+
+Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual). 
+
+Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
+
+### 5.4.4 Usuários
+
+**Usuários:** aqui devem ser colocados os nomes dos usuários que terão acesso a esse requisito, conforme enumerados na descrição do sistema.
+
+### 5.4.5 Exemplo de requisito funcional
+
+- **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
+para a página principal de seu perfil de acesso. 
+  - **Dados necessários:** login, senha, nível de permissão. 
+  - **Usuários:** todos os níveis de usuário.
+
+### 5.4.6 Organização dos requisitos funcionais
+
+As funcionalidades devem ser organizadas em: entradas, processos e saídas.
+
+**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso. 
+ 
+**Exemplos de entradas:**
+- “**Registro de usuário**” (para permitir depois seu acesso ao software).
+- “**Registro de paciente**” (que seria útil caso nosso software fosse ppara uma clínica, evitando registrar várias vezes os mesmos dados da pessoa a cada consulta e viabilizando um histórico de seus
+atendimentos).
+
+**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados. 
+
+**Exemplos de processos:**
+- “**Autenticação de usuário**”, que usará os dados de “**Registro de usuário**” em sua execução.
+- “**Agendamento de consulta**”, que usará dados do “**Registro de paciente**” e talvez do “**Registro de funcionário**” em sua execução.
+
+**Saídas:** São os relatórios, gráficos, impressões, etc., que utilizarem os dados do software para gerar informações pertinentes ao
+negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem. 
+
+**Exemplos de saídas:**
+- “Relatório de consultas por paciente”.
+- Relatório de vendas”. 
+- “Log de usuários autenticados”.
+
+Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
+negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados necessários devem ser os que a tela exibirá.
+
+### 5.4.7 Exemplo de organização dos requisitos funcionais
+
+(_A seguir, um exemplo de organização de requisitos funcionais, com entradas, processos e saídas._)
+
+**Entradas:**
+
+- **R.F. 01 - Nome do requisito funcional:** descrição do requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+- **R.F. 02 - Nome do requisito funcional:** descrição do requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+**Processamento:**
+
+- **R.F. 03 - Nome do requisito funcional:** descrição do requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+- **R.F. 04 - Nome do requisito funcional:** descrição do requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+**Saídas:**
+
+- **R.F. 05 - Nome do requisito funcional:** descrição do requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+- **R.F. 06 - Nome do requisito funcional:** descrição do requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+
