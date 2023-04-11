@@ -4,7 +4,7 @@
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 *(Coloque aqui uma breve descrição do seu projeto.)*
 
-Cadastre seu projeto nesse [link].(https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing)
+Cadastre seu projeto nesse [link](https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing).
 
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
@@ -327,4 +327,74 @@ negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados 
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
+# 6. Requisitos não funcionais
 
+Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
+
+Eles geralmente são indicados por adjetivos como **segurança**, **desempenho** e **escalabilidade**.
+
+## 6.1 Categorias de requisitos não funcionais
+
+Os requisitos não funcionais são importantes porque ajudam a garantir que o sistema atenda às necessidades do usuário.
+
+Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. **Esses requisitos não têm nenhum
+impacto na funcionalidade do aplicativo.** Além disso, existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
+
+- Interface de Usuário
+- Confiabilidade
+- Segurança
+- Atuação
+- Manutenção
+
+Os requisitos não funcionais podem ser divididos em duas categorias:
+
+1. **Atributos de qualidade:** Estas são as características do sistema que determinam sua qualidade geral. Exemplos de atributos de qualidade incluem segurança, desempenho e usabilidade.
+2. **Restrições:** Estas são as limitações impostas ao sistema.
+Exemplos de restrições incluem tempo, recursos e ambiente.
+
+## 6.2 Vantagens dos requisitos não funcionais
+
+Os requisitos não funcionais ajudam a garantir que o sistema seja:
+
+1. Adaptado às necessidades do usuário.
+2. Adequado à finalidade.
+3. Escalável, seguro e confiável.
+4. Fácil de usar e manter.
+
+## 6.3 Exemplos de requisitos não funcionais
+
+Aqui estão alguns exemplos de requisitos não funcionais:
+1. **Segurança**: O sistema deve ser protegido contra acesso não
+autorizado.
+2. **Atuação**: O sistema deve ser capaz de lidar com o número necessário
+de usuários sem qualquer degradação no desempenho.
+3. **Escalabilidade**: O sistema deve ser capaz de aumentar ou diminuir
+conforme necessário.
+4. **Disponibilidade**: O sistema deve estar disponível quando necessário.
+5. **Manutenção**: O sistema deve ser fácil de manter e atualizar.
+6. **Portabilidade**: O sistema deve ser capaz de rodar em diferentes
+plataformas com alterações mínimas.
+7. **Confiabilidade**: O sistema deve ser confiável e atender aos requisitos
+do usuário.
+8. **Usabilidade**: O sistema deve ser fácil de usar e entender.
+9. **Compatibilidade**: O sistema deve ser compatível com outros sistemas.
+10. **Conformidade**: O sistema deve cumprir todas as leis e regulamentos
+aplicáveis.
+
+
+## 6.4 Exemplo de organização dos requisitos não funcionais
+
+(_A seguir, um exemplo de organização de requisitos não funcionais._)
+
+**Requisitos não funcionais:**
+
+- **R.N.F. 01 - Nome do requisito não funcional:** descrição do requisito. 
+  - **Dados necessários:** dado 1, dado 2, dado 3.
+  - **Usuários:** todos os níveis de usuário.
+
+## 6.5 Conclusão
+
+Requisitos não funcionais são essenciais para qualquer sistema. Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
+
+É importante considerar cuidadosamente todos os requisitos não funcionais antes de projetar e desenvolver um sistema.
+Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
