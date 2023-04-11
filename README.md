@@ -18,7 +18,8 @@ Links do projeto:
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend[Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
-# Como usar esse modelo para o Projeto Integrador
+**Como usar esse modelo para o Projeto Integrador**
+
 *(Essa parte pode ser apagada depois.)*
 
 1. Faça um fork desse repositório para a sua conta do GitHub.
