@@ -411,3 +411,111 @@ Requisitos não funcionais são essenciais para qualquer sistema. Eles ajudam a 
 
 É importante considerar cuidadosamente todos os requisitos não funcionais antes de projetar e desenvolver um sistema.
 Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
+
+# 7. Diagrama de Caso de Uso
+
+**7.1 Introdução**
+
+O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comportamento de um sistema a partir da perspectiva do usuário. Ele é usado para capturar os requisitos funcionais de um sistema.
+
+- Especificam a visão externa do sistema.
+- Descrevem como o sistema é percebido por seus usuários.
+- Descrevem as interações entre os usuários e o sistema.
+
+![Diagrama de Caso de Uso](img/dcu1.png)
+
+**Os casos de uso:**
+- Descrevem como os **usuários interagem com o sistema** (as funcionalidades do sistema)
+- Facilitam a **organização dos requisitos** de um sistema.
+- Dão uma **visão externa** do sistema
+- O conjunto de casos de uso deve ser capaz de comunicar a **funcionalidade** e o **comportamento** do sistema para o cliente.
+- Descrevem **o que** o sistema faz, mas **não** especificam **como** isso deve ser feito.
+
+**7.2 Elementos do diagrama de caso de uso**
+
+7.2.1 **Atores**
+
+- Representam os papéis desempenhados por **elementos externos** ao sistema
+  - Ex: humano (usuário), dispositivo de hardware ou outro sistema (cliente)
+- Elementos que **interagem** com o sistema
+
+Notação:
+
+![Atores Notação](img/dcu_atores_notacao.png "Atores Notação")
+
+**Exemplo: Loja de CDs**
+
+**Identificando os atores**
+- Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja.
+- A loja possui um **atendente** cuja função é atender os clientes durante a venda dos discos. A loja também possui um **gerente** cuja função é administrar o estoque para que não faltem discos. Além disso é ele quem dá folga ao atendente, ou seja, ele também atende os clientes durante a venda dos discos.
+
+![Identificando os atores](img/dcu_identificando_atores.png "Identificando os atores")
+
+**E o cliente?**
+- Não é ator pois ele **não interage** com o sistema!
+
+**7.2.2 Casos de uso**
+
+- Representam **funcionalidades** do sistema (requisitos funcionais).
+- São iniciados por **atores** ou por outros casos de uso.
+
+> **Dica**: nomeie os casos de uso com **verbos** no **infinitivo**.
+
+Notação:
+
+![Casos de uso Notação](img/dcu_casos_de_uso_notacao.png "Casos de uso Notação")
+
+**Exemplo: Loja de CDs**
+
+**Identificando os casos de uso**
+
+- Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja. A loja possui um atendente cuja função é atender os clientes durante a **venda dos discos**. 
+- A loja também possui um gerente cuja função é **administrar o estoque** para que não faltem discos. Além disso é ele quem dá folga ao atendente, ou seja, ele também atende os clientes durante a **venda dos discos**.
+
+![Identificando os casos de uso](img/dcu_identificando_casos_de_uso.png "Identificando os casos de uso")
+
+**7.2.3 Relacionamentos**
+
+**7.2.3.1 Relacionamento de associação**
+
+- Indica que um ator **participa** de um caso de uso, ou seja, o ator **interage** (comunica-se) com o caso de uso.
+- É representado por uma **linha sólida**.
+- Um ator pode se relacionar com **um ou mais casos de uso**.
+
+> Dicas:
+> - Não use setas nas linhas de associação.
+> - Associações não representam fluxo de informação.
+
+![Relacionamento de associação](img/dcu_relacionamento_de_associacao.png "Relacionamento de associação")
+
+**Exemplo: Loja de CDs**
+
+**Identificando os relacionamentos de associação**
+
+- Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja. A loja possui um _atendente_ cuja função é atender os clientes durante a **venda dos discos**. 
+- A loja também possui um _gerente_ cuja função é **administrar o estoque** para que não faltem discos. Além disso é ele quem dá folga ao _atendente_, ou seja, ele também atende os clientes durante a **venda dos discos**.
+
+![Identificando os relacionamentos de associação](img/dcu_identificando_relacionamentos_de_associacao.png "Identificando os relacionamentos de associação")
+
+**7.2.3.2 Relacionamento de generalização/especialização**
+
+**Generalização de atores**
+
+- Quando dois ou mais atores podem se **comunicar com o mesmo conjunto de casos de uso**.
+- Indica que um ator **herda** as características de outro ator.
+– Um filho (herdeiro) pode se comunicar com todos os casos de uso que seu pai se comunica.
+
+> **Dica:** coloque os herdeiros **embaixo**.
+
+**Notação:**
+
+![Relacionamento de generalização/especialização Notação](img/dcu_relacionamento_de_generalizacao_especializacao_notacao.png "Relacionamento de generalização/especialização Notação")
+
+**Exemplo: Loja de CDs**
+
+**Identificando os relacionamentos de generalização/especialização de atores**
+
+![Identificando os relacionamentos de generalização/especialização de atores](img/dcu_identificando_relacionamentos_de_generalizacao_especializacao_de_atores.png "Identificando os relacionamentos de generalização/especialização de atores")
+
+**Generalização de casos de uso**
+
