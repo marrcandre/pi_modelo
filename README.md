@@ -509,7 +509,7 @@ Notação:
 
 **Notação:**
 
-![Relacionamento de generalização/especialização Notação](img/dcu_relacionamento_de_generalizacao_especializacao_notacao.png "Relacionamento de generalização/especialização Notação")
+![Relacionamento de generalização/especialização de atores - notação](img/dcu_relacionamento_de_generalizacao_especializacao_notacao_de_atores.png "Relacionamento de generalização/especialização de atores - notação")
 
 **Exemplo: Loja de CDs**
 
@@ -518,4 +518,81 @@ Notação:
 ![Identificando os relacionamentos de generalização/especialização de atores](img/dcu_identificando_relacionamentos_de_generalizacao_especializacao_de_atores.png "Identificando os relacionamentos de generalização/especialização de atores")
 
 **Generalização de casos de uso**
+
+– O caso de uso filho herda o comportamento e o significado do caso de uso pai.
+– O caso de uso filho pode incluir ou sobrescrever o comportamento do caso de uso pai.
+– O caso de uso filho pode substituir o caso de uso pai em qualquer lugar que ele apareça.
+
+> **Dica:** deve ser aplicada quando uma condição resulta na definição de
+diversos fluxos alternativos.
+
+Notação:
+
+![Relacionamento de generalização/especialização de casos de uso - notação](img/dcu_relacionamento_de_generalizacao_especializacao_notacao_de_casos_de_uso.png "Relacionamento de generalização/especialização de casos de uso - notação")
+
+**Exemplo: Loja de CDs**
+
+**Identificando os relacionamentos de generalização/especialização de casos de uso**
+
+**Novos requisitos:**
+
+- As vendas podem ser **à vista** ou **a prazo**. Em ambos os casos o estoque é
+atualizado e uma nota fiscal, entregue ao consumidor.
+- No caso de uma **venda à vista**, clientes cadastrados na loja e que compram mais de 5 CDs de uma só vez ganham um desconto de 1% para cada ano de cadastro.
+- No caso de uma **venda a prazo**, ela pode ser parcelada em 2 pagamentos com um
+acréscimo de 20%. As vendas a prazo podem ser pagas no **cartão** ou no **boleto**. 
+  - Para pagamento com **boleto**, são gerados boletos bancários que são entregues ao cliente e armazenados no sistema para lançamento posterior no caixa. 
+  - Para pagamento com **cartão**, os clientes com mais de 10 anos de cadastro na loja ganham o mesmo desconto das compras à vista.
+ 
+![Identificando os relacionamentos de generalização/especialização de casos de uso](img/dcu_identificando_relacionamentos_de_generalizacao_especializacao_de_casos_de_uso.png "Identificando os relacionamentos de generalização/especialização de casos de uso")
+
+**Identificando mais relacionamentos de generalização/especialização de casos de uso**
+
+![Identificando mais relacionamentos de generalização/especialização de casos de uso](img/dcu_identificando_mais_relacionamentos_de_generalizacao_especializacao_de_casos_de_uso.png "Identificando mais relacionamentos de generalização/especialização de casos de uso")
+
+**7.2.3.3 Relacionamento de dependência**
+
+**Extensão**
+
+- Representa uma variação/extensão do comportamento do caso de uso base.
+- O caso de uso estendido só é executado sob certas circunstâncias.
+- Separa partes obrigatórias de partes opcionais.
+  - Partes obrigatórias: caso de uso base.
+  - Partes opcionais: caso de uso estendido.
+- Fatorar comportamentos variantes do sistema (podendo reusar este comportamento
+em outros casos de uso).
+
+**Notação:**
+
+![Relacionamento de dependência (extensão) - notação](img/dcu_relacionamento_de_dependencia_extensao_notacao.png "Relacionamento de dependência (extensão) - notação")
+
+**Exemplo: Loja de CDs**
+
+**Identificando os relacionamentos de dependência (extensão)**
+
+**Novos requisitos:**
+- No caso de uma venda à vista, clientes cadastrados na loja e que compram mais
+de 5 CDs de uma só vez ganham um **desconto** de 1% para cada ano de cadastro.
+- No caso de uma venda a prazo...
+  - ...Para pagamento com cartão, os clientes com mais de 10 anos de cadastro na loja ganham o mesmo **desconto** das compras à vista.
+
+![Identificando os relacionamentos de dependência (extensão)](img/dcu_identificando_relacionamentos_de_dependencia_extensao.png "Identificando os relacionamentos de dependência (extensão)")
+
+**Inclusão**
+
+- Evita repetição ao fatorar uma atividade
+comum a dois ou mais casos de uso.
+- Um caso de uso pode incluir vários casos de uso.
+
+**Notação:**
+
+![Relacionamento de dependência (inclusão) - notação](img/dcu_relacionamento_de_dependencia_inclusao_notacao.png "Relacionamento de dependência (inclusão) - notação")
+
+**Exemplo: Loja de CDs**
+
+**Novos requisitos:**
+Para efetuar vendas ou administrar estoque, atendentes e gerentes terão que **validar** suas respectivas senhas de
+acesso ao sistema.
+
+![Identificando os relacionamentos de dependência (inclusão)](img/dcu_identificando_relacionamentos_de_dependencia_inclusao.png "Identificando os relacionamentos de dependência (inclusão)")
 
