@@ -422,7 +422,7 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 - Descrevem como o sistema é percebido por seus usuários.
 - Descrevem as interações entre os usuários e o sistema.
 
-![Diagrama de Caso de Uso](img/dcu1.png)
+![Diagrama de Caso de Uso](img/dcu1.png "Diagrama de Caso de Uso")
 
 **Os casos de uso:**
 - Descrevem como os **usuários interagem com o sistema** (as funcionalidades do sistema)
@@ -595,4 +595,18 @@ Para efetuar vendas ou administrar estoque, atendentes e gerentes terão que **v
 acesso ao sistema.
 
 ![Identificando os relacionamentos de dependência (inclusão)](img/dcu_identificando_relacionamentos_de_dependencia_inclusao.png "Identificando os relacionamentos de dependência (inclusão)")
+
+**7.2.4 Fronteira do sistema**
+
+- Elemento opcional (mas essencial para um bom
+entendimento).
+- Serve para definir a área de atuação do sistema, ou seja, seus limites.
+
+**Identificando a fronteira do sistema**
+
+![Identificando a fronteira do sistema](img/dcu_identificando_a_fronteira_do_sistema.png "Identificando a fronteira do sistema")
+
+---
+
+
 
