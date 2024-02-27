@@ -4,19 +4,19 @@
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 *(Coloque aqui uma breve descrição do seu projeto.)*
 
-Cadastre seu projeto nesse [link](https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing).
+**IMPORTANTE**: [**Cadastre seu projeto nesse link**](https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing).
 
-Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
+Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
 - [Aluno1](github.com/aluno1)
 - [Aluno2](github.com/aluno2)
-  
+
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend[Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 **Como usar esse modelo para o Projeto Integrador**
 
@@ -26,7 +26,7 @@ Links do projeto:
 2. Clone o repositório para o seu computador.
 3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
 4. Tenha instaladas as seguintes extensões:
-   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) 
+   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
    - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 5. Edite o arquivo README.md com as informações do seu projeto.
 
@@ -100,6 +100,14 @@ Após entender o problema, proponha uma solução que será útil nos aspectos d
 Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
 precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
 
+# 4. Modelagem de Dados
+
+(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
+
+Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
+
+
+<!--
 # 4. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
@@ -176,7 +184,7 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
 
 Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**. 
+**função** e **comportamento**.
 
 - A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
 - O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
@@ -211,7 +219,7 @@ acompanhar o progresso
 Um requisito funcional deve ser estruturado da seguinte forma:
 
 - **Nome do requisito funcional:** descrição do
-requisito. 
+requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
@@ -219,16 +227,16 @@ requisito.
 
 **R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
 seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
-Por exemplo: 
+Por exemplo:
 - R.F. 01 - Registro de Funcionários
 - R.F. 15 - Gerenciamento de consultas
 - R.F. 04 - Débito em conta corrente
- 
+
 Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
 
 **5.4.2 Descrição do requisito funcional**
 
-**Descrição do requisito:** local para descrever a função deste requisito. 
+**Descrição do requisito:** local para descrever a função deste requisito.
 
 Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa.
 Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
@@ -236,9 +244,9 @@ usuários. Outro exemplo é algo que faz sentido apenas para um  software, como 
 
 **5.4.3 Dados necessários**
 
-**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer. 
+**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer.
 
-Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual). 
+Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual).
 
 Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
 
@@ -249,33 +257,33 @@ Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindo
 **5.4.5 Exemplo de requisito funcional**
 
 - **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
-para a página principal de seu perfil de acesso. 
-  - **Dados necessários:** login, senha, nível de permissão. 
+para a página principal de seu perfil de acesso.
+  - **Dados necessários:** login, senha, nível de permissão.
   - **Usuários:** todos os níveis de usuário.
 
 **5.4.6 Organização dos requisitos funcionais**
 
 As funcionalidades devem ser organizadas em: entradas, processos e saídas.
 
-**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso. 
- 
+**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso.
+
 **Exemplos de entradas:**
 - “**Registro de usuário**” (para permitir depois seu acesso ao software).
 - “**Registro de paciente**” (que seria útil caso nosso software fosse ppara uma clínica, evitando registrar várias vezes os mesmos dados da pessoa a cada consulta e viabilizando um histórico de seus
 atendimentos).
 
-**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados. 
+**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados.
 
 **Exemplos de processos:**
 - “**Autenticação de usuário**”, que usará os dados de “**Registro de usuário**” em sua execução.
 - “**Agendamento de consulta**”, que usará dados do “**Registro de paciente**” e talvez do “**Registro de funcionário**” em sua execução.
 
 **Saídas:** São os relatórios, gráficos, impressões, etc., que utilizarem os dados do software para gerar informações pertinentes ao
-negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem. 
+negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem.
 
 **Exemplos de saídas:**
 - “Relatório de consultas por paciente”.
-- Relatório de vendas”. 
+- Relatório de vendas”.
 - “Log de usuários autenticados”.
 
 Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
@@ -287,31 +295,31 @@ negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados 
 
 **Entradas:**
 
-- **R.F. 01 - Nome do requisito funcional:** descrição do requisito. 
+- **R.F. 01 - Nome do requisito funcional:** descrição do requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
-- **R.F. 02 - Nome do requisito funcional:** descrição do requisito. 
+- **R.F. 02 - Nome do requisito funcional:** descrição do requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
 **Processamento:**
 
-- **R.F. 03 - Nome do requisito funcional:** descrição do requisito. 
+- **R.F. 03 - Nome do requisito funcional:** descrição do requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
-- **R.F. 04 - Nome do requisito funcional:** descrição do requisito. 
+- **R.F. 04 - Nome do requisito funcional:** descrição do requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
 **Saídas:**
 
-- **R.F. 05 - Nome do requisito funcional:** descrição do requisito. 
+- **R.F. 05 - Nome do requisito funcional:** descrição do requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
-- **R.F. 06 - Nome do requisito funcional:** descrição do requisito. 
+- **R.F. 06 - Nome do requisito funcional:** descrição do requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
@@ -375,7 +383,7 @@ aplicáveis.
 
 **Requisitos não funcionais:**
 
-- **R.N.F. 01 - Nome do requisito não funcional:** descrição do requisito. 
+- **R.N.F. 01 - Nome do requisito não funcional:** descrição do requisito.
 - **R.N.F. 02 - Nome do requisito não funcional:** descrição do requisito.
 
 **Exemplos de requisitos não funcionais:**
@@ -395,7 +403,7 @@ aplicáveis.
 - **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
 
 **Sistema de Ordem de Serviço:**
-- **R.N.F. 01 - Navegadores homologados:** o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox. 
+- **R.N.F. 01 - Navegadores homologados:** o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
 - **R.N.F. 02 - Tecnologia Front-end:** Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além do framework Vue.js.
 - **R.N.F. 03- Tecnologia Back-end:** O software será desenvolvido pela linguagem de programação Python, com o framework Django e a API REST com Django REST Framework.
 - **R.N.F. 04 - Interoperabilidade:** O banco de dados será o MySQL, com a linguagem SQL de banco, sendo todo produzido através do MySQL Workbench .
@@ -469,7 +477,7 @@ Notação:
 
 **Identificando os casos de uso**
 
-- Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja. A loja possui um atendente cuja função é atender os clientes durante a **venda dos discos**. 
+- Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja. A loja possui um atendente cuja função é atender os clientes durante a **venda dos discos**.
 - A loja também possui um gerente cuja função é **administrar o estoque** para que não faltem discos. Além disso é ele quem dá folga ao atendente, ou seja, ele também atende os clientes durante a **venda dos discos**.
 
 ![Identificando os casos de uso](img/dcu_identificando_casos_de_uso.png "Identificando os casos de uso")
@@ -492,7 +500,7 @@ Notação:
 
 **Identificando os relacionamentos de associação**
 
-- Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja. A loja possui um _atendente_ cuja função é atender os clientes durante a **venda dos discos**. 
+- Uma loja de CDs possui discos para venda. Um cliente pode comprar uma quantidade ilimitada de discos para isto ele deve se dirigir à loja. A loja possui um _atendente_ cuja função é atender os clientes durante a **venda dos discos**.
 - A loja também possui um _gerente_ cuja função é **administrar o estoque** para que não faltem discos. Além disso é ele quem dá folga ao _atendente_, ou seja, ele também atende os clientes durante a **venda dos discos**.
 
 ![Identificando os relacionamentos de associação](img/dcu_identificando_relacionamentos_de_associacao.png "Identificando os relacionamentos de associação")
@@ -540,10 +548,10 @@ Notação:
 atualizado e uma nota fiscal, entregue ao consumidor.
 - No caso de uma **venda à vista**, clientes cadastrados na loja e que compram mais de 5 CDs de uma só vez ganham um desconto de 1% para cada ano de cadastro.
 - No caso de uma **venda a prazo**, ela pode ser parcelada em 2 pagamentos com um
-acréscimo de 20%. As vendas a prazo podem ser pagas no **cartão** ou no **boleto**. 
-  - Para pagamento com **boleto**, são gerados boletos bancários que são entregues ao cliente e armazenados no sistema para lançamento posterior no caixa. 
+acréscimo de 20%. As vendas a prazo podem ser pagas no **cartão** ou no **boleto**.
+  - Para pagamento com **boleto**, são gerados boletos bancários que são entregues ao cliente e armazenados no sistema para lançamento posterior no caixa.
   - Para pagamento com **cartão**, os clientes com mais de 10 anos de cadastro na loja ganham o mesmo desconto das compras à vista.
- 
+
 ![Identificando os relacionamentos de generalização/especialização de casos de uso](img/dcu_identificando_relacionamentos_de_generalizacao_especializacao_de_casos_de_uso.png "Identificando os relacionamentos de generalização/especialização de casos de uso")
 
 **Identificando mais relacionamentos de generalização/especialização de casos de uso**
@@ -609,4 +617,4 @@ entendimento).
 ---
 
 
-
+ -->
