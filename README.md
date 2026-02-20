@@ -41,7 +41,14 @@ Links do projeto:
 
 **1.1.1 Ponto de Vendas (PDV)**
 
-**Gerenciamento de vendas para uma padaria**
+Um sistema de ponto de vendas é um software que permite a um estabelecimento comercial registrar as vendas realizadas, gerenciar o estoque, emitir notas fiscais, etc. Ele é utilizado principalmente em lojas, supermercados, padarias, restaurantes, etc.
+
+**Exemplos de sistemas de pontos de vendas:**
+- Padaria, supermercado, cafeteria, pizzaria, restaurante, etc.
+- Farmácia, loja de roupas, papelaria, etc.
+
+
+**Exemplo: Gerenciamento de vendas para uma padaria**
 
 O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
 Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
@@ -50,7 +57,15 @@ relatórios, como por exemplo, de vendas.
 
 **1.1.2 Empréstimo**
 
-**Gerenciamento de uma biblioteca**
+Um sistema de empréstimo é um software que permite a uma instituição, como uma biblioteca, gerenciar o empréstimo de livros, revistas, etc. Ele é utilizado principalmente em bibliotecas, escolas, universidades, etc.
+
+**Exemplos de sistemas de empréstimo:**
+- Biblioteca, coworking, estacionamento, etc.
+- Locadora de veículos, aluguel de equipamentos, etc.
+- Aluguel de imoveis, etc.
+- Aluguel de trajes, fantasias, brinquedos para festas, etc.
+
+**Exemplo: Gerenciamento de uma biblioteca**
 
 Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
 terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
@@ -58,7 +73,15 @@ de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema 
 
 **1.1.3 Ordem de Serviço (O.S.)**
 
-**Manutenção de computadores**
+Um sistema de ordem de serviço é um software que permite a uma empresa, como uma oficina, gerenciar os serviços realizados, os clientes atendidos, etc. Ele é utilizado principalmente em oficinas mecânicas, assistência técnica, etc.
+
+**Exemplos de sistemas de ordem de serviço:**
+- Manutenção de computadores, assistência técnica de celulares, etc.
+- Manutenção de veículos, etc.
+- Manutenção de eletrodomésticos, etc.
+
+
+**Exemplo:Manutenção de computadores**
 
 Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
 
