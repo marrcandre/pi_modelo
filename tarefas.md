@@ -3,7 +3,7 @@
 ---
 
 ## *1) Definição do Projeto*
-**Período de entrega:** de *27/03/2025 às 00h00* a *12/04/2025 às 23h59*
+**Período de entrega:** de 02/03/2026 a 06/03/2026 às 17h00
 
 ### *Envios*
 Preencher a planilha com:
@@ -22,7 +22,7 @@ https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuF
 ---
 
 ## *2) Requisitos Funcionais e MER*
-**Período de entrega:** de *24/04/2025 às 00h00* a *11/05/2025 às 23h59*
+**Período de entrega:** de *24/04/2026 às 00h00* a *11/05/2026 às 23h59*
 
 ### *Envio*
 - Link do projeto no GitHub
@@ -36,7 +36,7 @@ https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuF
 ---
 
 ## *3) Desenvolvimento e Publicação das Primeiras Telas*
-**Período de entrega:** de *12/05/2025 às 00h00* a *13/06/2025 às 17h00*
+**Período de entrega:** de *12/05/2026 às 00h00* a *13/06/2026 às 17h00*
 
 ### *Envio*
 Link do projeto no GitHub contendo obrigatoriamente:
@@ -52,7 +52,7 @@ Link do projeto no GitHub contendo obrigatoriamente:
 ---
 
 ## *4) Entrega do 2º Trimestre*
-**Período de entrega:** de *25/08/2025 às 00h00* a *19/09/2025 às 17h00*
+**Período de entrega:** de *25/08/2026 às 00h00* a *19/09/2026 às 17h00*
 
 ### *Envio*
 - Descrever os requisitos que o grupo entregará ao final do 2º trimestre
@@ -60,7 +60,7 @@ Link do projeto no GitHub contendo obrigatoriamente:
 ---
 
 ## *5) Entrega Parcial do 3º Trimestre*
-**Período de entrega:** de *30/10/2025 às 00h00* a *31/10/2025 às 23h59*
+**Período de entrega:** de *30/10/2026 às 00h00* a *31/10/2026 às 23h59*
 
 ### *Envio*
 - Link do GitHub do projeto (o mesmo informado na planilha)
@@ -68,4 +68,4 @@ Link do projeto no GitHub contendo obrigatoriamente:
 ---
 
 ## *6) Entrega Final do 3º Trimestre*
-**Período de entrega:** de *13/11/2025 às 00h00* a *21/11/2025 às 17h00*
+**Período de entrega:** de *13/11/2026 às 00h00* a *21/11/2026 às 17h00*
